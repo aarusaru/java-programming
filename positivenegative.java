@@ -1,6 +1,6 @@
 class Main {
   public static void main(String[] args) {
-    int a=5;
+    int a=-3;
     if (a>0)
     {
     System.out.println("Positive");
