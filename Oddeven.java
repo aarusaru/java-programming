@@ -1,15 +1,15 @@
 class Main
 { 
-    public static boolean isEven(int n) 
+    public static boolean Even(int x) 
     { 
-    return (n % 2 == 0); 
+    return (x % 2 == 0); 
     } 
     public static void main(String[] args) 
     { 
-    int n =2222; 
-        if(isEven(n) == true) 
-            System.out.print("Even"); 
-        else
+    int x =5; 
+        if(Even(x) == true) 
             System.out.print("Odd"); 
+        else
+            System.out.print("Even"); 
     } 
 } 
