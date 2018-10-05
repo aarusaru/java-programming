@@ -6,7 +6,7 @@ class Main
     } 
     public static void main(String[] args) 
     { 
-    int n =101; 
+    int n =2222; 
         if(isEven(n) == true) 
             System.out.print("Even"); 
         else
